@@ -27,7 +27,7 @@ const portfolio = [
     title: 'line機器人 搜尋食譜',
     img: new URL('@/assets/img/node-line-bot.jpg', import.meta.url).href,
     github: 'https://github.com/a733181/2022-nodeLineBot-recipe',
-    page: 'LINE ID：@599emgee',
+    page: 'https://lin.ee/5nSlCrD',
   },
   {
     title: '90秒小遊戲',
