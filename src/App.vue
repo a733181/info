@@ -6,6 +6,7 @@
     <Skill />
     <Portfolio />
     <Work />
+    <Connection />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import About from '@/components/TheAbout.vue';
 import Skill from '@/components/TheSkill.vue';
 import Portfolio from '@/components/ThePortfolio.vue';
 import Work from '@/components/TheWork.vue';
+import Connection from './components/TheConnection.vue';
 
 const toggleHeader = ref(false);
 

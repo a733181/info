@@ -9,8 +9,7 @@
       />
       <div>
         <h3 class="text-gray-800 font-bold text-6xl mb-4">黃姿瑄</h3>
-        <h4 class="text-xl">中華科技大學-資訊管理學系 2009~2013</h4>
-        <p class="mb-8 text-xl"></p>
+        <h4 class="text-xl mb-20">中華科技大學-資訊管理學系 2009~2013</h4>
         <div class="flex gap-10 flex-col lg:flex-row mb-10">
           <div>
             <h4 class="text-4xl font-bold">求職資訊</h4>
@@ -61,31 +60,6 @@
             </table>
           </div>
         </div>
-        <form
-          action="https://docs.google.com/forms/d/e/1FAIpQLSfaKgy30vw1weSSfS2AASObus_v03iF2nQ5zVK0WSy7Eo0keg/viewform"
-          method="POST"
-          class="text-3xl bg-white shadow-sm flex flex-col gap-10 py-10 rounded-lg"
-        >
-          <input
-            type="text"
-            placeholder="姓名&ensp;/&ensp;稱呼"
-            class="outline-none focus:border-primary border-2 w-11/12 mx-auto p-4 rounded-lg"
-          />
-
-          <input
-            type="connection"
-            placeholder="聯絡方式"
-            class="outline-none focus:border-primary w-11/12 mx-auto border-2 p-4 rounded-lg"
-          />
-
-          <textarea
-            id="message"
-            placeholder="訊息"
-            class="outline-none focus:border-primary w-11/12 mx-auto border-2 p-4 rounded-lg h-96"
-          ></textarea>
-          <button type="reset">清除</button>
-          <button type="submit">送出</button>
-        </form>
       </div>
     </div>
   </section>

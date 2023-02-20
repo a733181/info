@@ -20,34 +20,12 @@
         class="text-white flex flex-col text-3xl space-y-9 items-center mb-20"
       >
         <a
+          v-for="(item, index) in nav"
+          :key="index"
           class="duration-200 hover:text-primary hover:tracking-wider"
-          href="#home"
+          :href="item.link"
           @click="toggleHeader = !toggleHeader"
-          >首頁</a
-        >
-        <a
-          class="duration-200 hover:text-primary hover:tracking-wider"
-          href="#about"
-          @click="toggleHeader = !toggleHeader"
-          >關於我</a
-        >
-        <a
-          class="duration-200 hover:text-primary hover:tracking-wider"
-          href="#skill"
-          @click="toggleHeader = !toggleHeader"
-          >技能</a
-        >
-        <a
-          class="duration-200 hover:text-primary hover:tracking-wider"
-          href="#portfolio"
-          @click="toggleHeader = !toggleHeader"
-          >作品集</a
-        >
-        <a
-          class="duration-200 hover:text-primary hover:tracking-wider"
-          href="#work"
-          @click="toggleHeader = !toggleHeader"
-          >工作經驗</a
+          >{{ item.title }}</a
         >
       </nav>
       <div class="flex justify-center items-center gap-5">
@@ -91,5 +69,18 @@ const nav = [
     title: '關於我',
     link: '#about',
   },
+  {
+    title: '技能',
+    link: '#skill',
+  },
+  {
+    title: '作品集',
+    link: '#portfolio',
+  },
+  {
+    title: '工作經驗',
+    link: '#work',
+  },
+  { title: '聯絡我', link: '#connection' },
 ];
 </script>
