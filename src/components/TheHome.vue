@@ -58,7 +58,7 @@ const opacityShowStyle = computed(() => {
 
 <style scoped>
 .hero {
-  background: url('../assets/img/hero.png') no-repeat center / cover;
+  background: url('@/assets/img/hero.jpg') no-repeat center / cover;
   width: 100%;
   height: 100vh;
   display: flex;
