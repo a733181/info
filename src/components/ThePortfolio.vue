@@ -18,6 +18,12 @@ const portfolio = [
     page: 'https://a733181.github.io/2022-buytogether/#/',
   },
   {
+    title: '靚優 時尚美醫 鄭嘉琪',
+    img: new URL('../assets/img/dreamuTW.jpg', import.meta.url).href,
+    github: 'https://www.dreamutw.com/',
+    page: 'https://www.dreamutw.com/',
+  },
+  {
     title: 'Vue 番茄鐘',
     img: new URL('@/assets/img/vue-pomodoro.jpg', import.meta.url).href,
     github: 'https://github.com/a733181/2022-Vue-Pomodoro',
