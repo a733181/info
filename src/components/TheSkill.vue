@@ -45,7 +45,11 @@ const skill = [
   },
   {
     title: 'JavaScript',
-    list: ['了解 並會使用 ES6 語言', '通過 AJAX / JSON 串接 API'],
+    list: [
+      '了解 並會使用 ES6 語言',
+      '通過 AJAX / JSON 串接 API',
+      '使用 jQuery 函式庫',
+    ],
   },
   {
     title: 'Web / Layout',
