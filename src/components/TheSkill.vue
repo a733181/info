@@ -28,26 +28,26 @@ const skill = [
     title: 'Vue',
     list: [
       '使用 Vite 建立 Vue 專案並設定開發環境',
-      '能夠使用 Vue-Router 建立路由頁面並實現動態路由配置',
+      '使用 Vue-Router 建立路由頁面並實現動態路由配置',
       '在 Vue 中安裝及使用第三方套件以擴展功能',
-      '具備使用 components 管理元件並提高代碼重複使用性的能力',
+      '使用 components 管理元件並提高代碼重複使用性的能力',
       '使用 Pinia 狀態管理庫集中管理 Vue 專案中的資料',
     ],
   },
   {
     title: 'Node',
     list: [
-      '能夠使用 Express 建立伺服器並實現路由配置',
+      '使用 Express 建立伺服器並實現路由配置',
       '使用 CORS 跨域資源共用',
       '使用 Mongoose 連接 MongoDB 資料庫，進行 CRUD 操作',
-      '具備建立 API 串接前端的能力，提供合適的數據接口',
+      '建立 API 串接前端的能力，提供合適的數據接口',
     ],
   },
   {
     title: 'JavaScript',
     list: [
       '使用 ES6 ，並應用其特性進行開發',
-      '能夠使用 AJAX / JSON 串接 API，實現前後端數據交互',
+      '使用 AJAX / JSON 串接 API，實現前後端數據交互',
       '使用 jQuery 函式庫的能力，提高代碼編寫效率',
     ],
   },
