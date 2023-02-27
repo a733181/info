@@ -38,16 +38,6 @@
                 </td>
               </tr>
               <tr>
-                <td class="text-primary w-[100px] py-4">Line：</td>
-                <td class="py-4">
-                  <a
-                    href="https://line.me/ti/p/mZnErV_2XK"
-                    class="hover:opacity-60 duration-150"
-                    >1tm3dth5</a
-                  >
-                </td>
-              </tr>
-              <tr>
                 <td class="text-primary w-[100px] py-4">Discord：</td>
                 <td class="py-4">
                   <a
