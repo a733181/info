@@ -41,6 +41,7 @@ const jobs = [
   },
   {
     company: '多必優國際有限公司',
+    worKDate: '2014 - 2017',
     jobTitle: '行政助理',
     area: '新北市新莊區',
     content: '',
