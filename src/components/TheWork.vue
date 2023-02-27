@@ -2,52 +2,51 @@
   <section id="work">
     <h2 class="text-6xl my-10 lg:mb-20 font-bold">工作經驗</h2>
     <ul class="lg:w-1/2 mx-auto">
-      <li class="dot">
+      <li class="dot" v-for="(job, index) in jobs" :key="index">
         <div class="bg-white p-6 shadow-sm rounded-2xl">
           <p
             class="text-white bg-primary text-lg inline-block py-2 px-4 rounded-lg"
           >
-            2022-2023
+            {{ job.worKDate }}
           </p>
           <h3 class="text-4xl font-bold py-3">
-            前端網頁開發技術(青年專班)(泰山)-課程
+            {{ job.company }}
           </h3>
-          <p class="mb-3 ml-3">新北市泰山區</p>
-        </div>
-      </li>
-      <li class="dot">
-        <div class="bg-white p-6 shadow-sm rounded-2xl">
-          <p
-            class="text-white bg-primary text-lg inline-block py-2 px-4 rounded-lg"
-          >
-            2018 - 2021
+          <p class="mb-3">{{ job.jobTitle }} {{ job.area }}</p>
+          <p class="text-xl whitespace-pre-line leading-relaxed">
+            {{ job.content }}
           </p>
-          <h3 class="text-4xl font-bold py-3">喬宣有限公司</h3>
-          <p class="mb-3 ml-3">業務助理 新北市永和區</p>
-          <ul class="list-decimal ml-6 space-y-3">
-            <li class="text-2xl">通路後台商品管理</li>
-            <li class="text-2xl">訂單處理。</li>
-            <li class="text-2xl">客訴處理、退換貨處理。</li>
-            <li class="text-2xl">電話客服及線上客服。</li>
-            <li class="text-2xl">統計整理銷售數量。</li>
-            <li class="text-2xl">庫存管理。</li>
-          </ul>
-        </div>
-      </li>
-      <li class="dot">
-        <div class="bg-white p-6 shadow-sm rounded-2xl">
-          <p
-            class="text-white bg-primary text-lg inline-block py-2 px-4 rounded-lg"
-          >
-            2014 - 2017
-          </p>
-          <h3 class="text-4xl font-bold py-3">多必優國際有限公司</h3>
-          <p class="mb-3 ml-3">行政助理 新北市新莊區</p>
         </div>
       </li>
     </ul>
   </section>
 </template>
+
+<script setup>
+const jobs = [
+  {
+    company: '前端網頁開發技術(青年專班)(泰山)-課程',
+    worKDate: '2022-2023',
+    jobTitle: '',
+    area: '新北市泰山區',
+    content: '',
+  },
+  {
+    company: '喬宣有限公司',
+    worKDate: '2018 - 2021',
+    jobTitle: '業務助理',
+    area: '新北市永和區',
+    content:
+      '負責通路後台商品管理、訂單處理、客訴及退換貨處理，以及電話和線上客服。\n同時，還負責統計整理銷售數量並進行庫存管理。工作內容多元且相當細膩，達到了良好的表現。',
+  },
+  {
+    company: '多必優國際有限公司',
+    jobTitle: '行政助理',
+    area: '新北市新莊區',
+    content: '',
+  },
+];
+</script>
 
 <style scoped>
 .dot {

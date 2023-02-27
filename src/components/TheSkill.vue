@@ -27,38 +27,37 @@ const skill = [
   {
     title: 'Vue',
     list: [
-      '使用 Vite 建立 Vue',
-      '使用 Vue-Router 建立路由',
-      '在 Vue 安裝及使用第三方套件',
-      '使用 components 管理元件',
-      '使用 Pinia 集中管理資料',
+      '使用 Vite 建立 Vue 專案並設定開發環境',
+      '使用 Vue-Router 建立路由頁面並實現動態路由配置',
+      '在 Vue 中安裝及使用第三方套件以擴展功能',
+      '使用 components 管理元件並提高代碼重複使用性的能力',
+      '使用 Pinia 狀態管理庫集中管理 Vue 專案中的資料',
     ],
   },
   {
     title: 'Node',
     list: [
-      '使用 Express 建立伺服器',
+      '使用 Express 建立伺服器並實現路由配置',
       '使用 CORS 跨域資源共用',
-      '使用 Mongoose 連接 MongoDB 資料庫',
-      '建立 API 串接前端',
+      '使用 Mongoose 連接 MongoDB 資料庫，進行 CRUD 操作',
+      '建立 API 串接前端的能力，提供合適的數據接口',
     ],
   },
   {
     title: 'JavaScript',
     list: [
-      '了解 並會使用 ES6 語言',
-      '通過 AJAX / JSON 串接 API',
-      '使用 jQuery 函式庫',
+      '使用 ES6 ，並應用其特性進行開發',
+      '使用 AJAX / JSON 串接 API，實現前後端數據交互',
+      '使用 jQuery 函式庫的能力，提高代碼編寫效率',
     ],
   },
   {
     title: 'Web / Layout',
     list: [
-      '了解 自適應網頁設計 RWD',
-      '了解 SASS 預處理器',
-      '了解  Bootstrap 5 並應用元件',
-      '了解 Tailwind CSS',
-      'GitHub Page 部屬',
+      '了解並應用自適應網頁設計 RWD',
+      '使用 SASS 預處理器進行 CSS 編寫',
+      '使用 Bootstrap 5 和 Tailwind CSS 進行切版',
+      '使用 GitHub Page 部屬專案，實現線上展示',
     ],
   },
 ];
