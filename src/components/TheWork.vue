@@ -13,7 +13,7 @@
             {{ job.company }}
           </h3>
           <p class="mb-3">{{ job.jobTitle }} {{ job.area }}</p>
-          <p class="text-xl whitespace-pre-line leading-relaxed">
+          <p class="text-2xl whitespace-pre-line leading-relaxed">
             {{ job.content }}
           </p>
         </div>
@@ -25,26 +25,20 @@
 <script setup>
 const jobs = [
   {
-    company: '前端網頁開發技術(青年專班)(泰山)-課程',
-    worKDate: '2022-2023',
-    jobTitle: '',
-    area: '新北市泰山區',
-    content: '',
-  },
-  {
     company: '喬宣有限公司',
     worKDate: '2018 - 2021',
     jobTitle: '業務助理',
     area: '新北市永和區',
     content:
-      '負責通路後台商品管理、訂單處理、客訴及退換貨處理，以及電話和線上客服。\n同時，還負責統計整理銷售數量並進行庫存管理。工作內容多元且相當細膩，達到了良好的表現。',
+      '1.負責運用 WordPress 開發公司品牌官網。\n2.負責 ERP 系統操作及 CRM 客戶關係管理。\n3.負責商品管理與銷售數據統計分析。',
   },
   {
     company: '多必優國際有限公司',
     worKDate: '2014 - 2017',
     jobTitle: '行政助理',
     area: '新北市新莊區',
-    content: '',
+    content:
+      '1.負責商品採購及行政事務。\n2.負責商品進銷存和客戶關係管理。\n3.負責商品管理與銷售數據統計分析。',
   },
 ];
 </script>
