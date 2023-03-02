@@ -39,11 +39,11 @@ const skill = [
   },
   {
     title: '後端',
-    list: ['Node', 'MongoDB'],
+    list: ['Node.js', 'MongoDB'],
   },
   {
     title: '其他',
-    list: ['Git 版本控制'],
+    list: ['WordPress', 'Git 版本控制'],
   },
 ];
 </script>
