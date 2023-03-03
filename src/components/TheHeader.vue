@@ -42,7 +42,11 @@
           <img src="@/assets/svg/discord.svg" alt="discord" class="w-10" />
         </a>
         <a href="mailto:a733181@gmail.com">
-          <img src="@/assets/svg/envelope-solid.svg" alt="email" class="w-9" />
+          <img
+            src="@/assets/svg/envelope-solid.svg"
+            alt="email"
+            class="w-9 hover:opacity-60 duration-150"
+          />
         </a>
       </div>
     </header>

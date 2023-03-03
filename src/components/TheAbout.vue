@@ -12,7 +12,7 @@
         <h4 class="text-xl mb-16">中華科技大學-資訊管理學系 2009~2013</h4>
         <div class="mb-16">
           <h2 class="text-4xl font-bold mb-4">自傳</h2>
-          <p class="mb-6 text-2xl">
+          <p class="mb-6 text-2xl leading-[2]">
             您好，我是黃姿瑄，具七年資訊助理工作經驗，在工作中使用 WordPress
             重購公司品牌官網，發現自己對於網頁設計相關技術有濃厚的興趣，在自學期間學習
             HTML、CSS及 JavaScript ，後續參與半年的專業訓練，進一步掌握

@@ -43,7 +43,7 @@ const skill = [
   },
   {
     title: '其他',
-    list: ['WordPress', 'Git 版本控制'],
+    list: ['WordPress', 'Git'],
   },
 ];
 </script>
